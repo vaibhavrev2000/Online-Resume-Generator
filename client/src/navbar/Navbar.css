@@ -1,0 +1,40 @@
+.navbar__container {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: center;
+    background: #f9f9fd;
+    box-shadow: 0 0 10px rgb(0 0 0 / 10%);
+}
+
+.navbar {
+    width: 100%;
+    max-width: 135rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3rem;
+}
+
+.nav-left {
+    display: flex;
+}
+
+.nav-right {
+    display: flex;
+    gap: 3rem;
+}
+
+.nav-link {
+    cursor: pointer;
+    font-size: 1.6rem;
+}
+
+.nav-link a {
+    font-weight: 500;
+    color: var(--clr-primary);
+}
+
+.logo img {
+    width: 13rem;
+}
